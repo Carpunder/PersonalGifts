@@ -26,3 +26,21 @@
         max-width: none;
     }
 }
+
+@import "_header.scss";
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(255, 211, 199);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
